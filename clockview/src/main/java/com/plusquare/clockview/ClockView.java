@@ -28,6 +28,13 @@ public class ClockView extends View {
     private Paint p;
     int c, h, m;
 
+    public ClockView(Context context) {
+        super(context);
+        c = Color.parseColor("#F44336");
+        h = 17;
+        m = 0;
+    }
+
     public ClockView(Context context, AttributeSet attrs) {
         super(context, attrs);
         TypedArray arr = context.obtainStyledAttributes(attrs, R.styleable.ClockView);
@@ -64,6 +71,18 @@ public class ClockView extends View {
         canvas.drawLine(center_w, center_h, center_w + getMinuteX(len), center_h + getMinuteY(len), p);
         //p.setColor(getResources().getColor(R.color.textColorPrimary));
         canvas.drawLine(center_w, center_h, center_w + getHourX(len), center_h + getHourY(len), p);
+    }
+
+    public void setHour(int h) {
+        this.h = h;
+    }
+
+    public void setMinute(int m) {
+        this.m = m;
+    }
+
+    public void setClockColor(int c) {
+        this.c = c;
     }
 
     private float getMinuteX(int l) {
