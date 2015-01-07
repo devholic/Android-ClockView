@@ -21,5 +21,5 @@ Download ClockView and import it to your workspace and add this as a module.
 >```java
 > clockview.setClockColor([color]); // Set clock color
 > clockview.setHour([HH]); // Set clock hour
-> clockview.setMinute([mm]);
+> clockview.setMinute([mm]); // Set clock minute
 >```
