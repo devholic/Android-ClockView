@@ -1,6 +1,6 @@
 # ClockView
 
-![SampleScreenshot](https://38.media.tumblr.com/100b0ad24fa7869af91ef1be8babce98/tumblr_nhsujcSRmf1u4as5ao1_r3_1280.png)
+![SampleScreenshot](https://31.media.tumblr.com/100b0ad24fa7869af91ef1be8babce98/tumblr_inline_nht4j1SFlH1t5gb7q.png)
 
 ## How to
 
